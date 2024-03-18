@@ -1,7 +1,24 @@
 /* eslint-disable no-unused-vars */
-import About from "../pages/About";
-import home from "../pages/Home";
-import Careers from "../pages/Careers";
-import Contact from "../pages/Contact";
-import Counselor from "../pages/Counselor";
+import React from 'react'
+import "../components/Navbar.scss";
+const Navbar = () => {
+  return (
+    <div className='maindiv'>
+      <div className='Logo' >
+        <img src="src\images\Screenshot 2024-03-19 002445.png" alt="" />
+      </div>
+      <div className='Content'>
+        <button><span>Home</span></button>
+        <button>Careers</button>
+        <button>Counselor</button>
+        <button>Articles</button>
+        <button>About us</button>
+      </div>
+      <div className='login-section'>
+        <button>Login | <span>Sign up</span></button>
+      </div>
+    </div>
+  )
+}
 
+export default Navbar

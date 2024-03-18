@@ -1,0 +1,38 @@
+ button{
+        text-decoration: none;
+        border: none;
+    }
+
+    
+.maindiv{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-left: 100px;
+    gap: 80px;
+    .login-section button{
+        position: relative;
+        margin-left: 90px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        span{
+            background-color: blue;
+            color: white;
+            padding: 15px;
+            border-radius: 18px;
+        }
+    }
+   
+    }
+   
+
+
+ .Content button {
+        width: 130px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        span{
+            color: blue;
+        }}
+
