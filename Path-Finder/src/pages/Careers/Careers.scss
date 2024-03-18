@@ -1,8 +1,48 @@
-h1{
+.maindiv {
+    .first-text {
+        font-size: 25px;
+        position: absolute;
+        left: 595px;
+        top: 400px;
+    }
 
-}
+    .search {
+        button {
+            background-color: #EA6915;
+            height: 43.2px;
+            padding: 0 30px;
+            color: white;
+        }
+        input {
+            width: 500px;
+            height: 43px;
+            padding: 20px;
+        }
+        display: flex;
+        position: absolute;
+        left: 50%; // Center the search bar horizontally
+        transform: translateX(-50%); // Center the search bar horizontally
+        top: 450px;
+        padding-bottom: 36px;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
 
-body{
-    background-color: #EDEDED;
-   
+    .main-cards {
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        left: 50%; // Center the main cards horizontally
+        transform: translateX(-50%); // Center the main cards horizontally
+        top: 600px;
+    }
+
+    .img {
+        img {
+            height: 200px;
+            max-width: 100%; // Ensure image doesn't overflow horizontally
+            position: absolute;
+            top: 150px;
+            left: 0;
+        }
+    }
 }

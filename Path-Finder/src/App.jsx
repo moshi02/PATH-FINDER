@@ -5,8 +5,9 @@ import Navbar from './components/Navbar'
 const App = () => {
   return (
     <div>
+      {/* inavbar disable krdena is neeeded */}
       <Navbar/>
-      <Careers/>
+      {/* <Careers/> */}
     </div>
   )
 }
