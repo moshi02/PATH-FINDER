@@ -1,4 +1,8 @@
+
+
+
 .maindiv {
+  
     .first-text {
         font-size: 25px;
         position: absolute;
@@ -27,15 +31,195 @@
         border-bottom: 1px solid rgba(0, 0, 0, .2);
     }
 
-    .main-cards {
+    .main-cards-1 {
         display: flex;
         gap: 50px;
         position: absolute;
         left: 50%; // Center the main cards horizontally
         transform: translateX(-50%); // Center the main cards horizontally
         top: 600px;
+        .card{
+            border:none;
+            p{
+                display: flex;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 500;
+                transform: translateX(28%);
+            }
+        }
+    }
+    .main-cards-2{
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        left: 50%; // Center the main cards horizontally
+        transform: translateX(-50%); // Center the main cards horizontally
+        top: 810px;
+        .card{
+            border:none;
+            p{
+                display: flex;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 500;
+                transform: translateX(28%);
+            }
+        }
     }
 
+    .main-cards-3{
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        left: 50%; // Center the main cards horizontally
+        transform: translateX(-50%); // Center the main cards horizontally
+        top: 1020px;
+        .card{
+            border:none;
+            p{
+                display: flex;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 500;
+                transform: translateX(28%);
+            }
+        }
+    }
+
+    .main-cards-4{
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        left: 50%; // Center the main cards horizontally
+        transform: translateX(-50%); // Center the main cards horizontally
+        top: 1220px;
+        .card{
+            border:none;
+            p{
+                display: flex;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 500;
+                transform: translateX(28%);
+            }
+        }
+    }
+
+    .main-cards-5{
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        left: 50%; // Center the main cards horizontally
+        transform: translateX(-50%); // Center the main cards horizontally
+        top: 1430px;
+        .card{
+            border:none;
+            p{
+                display: flex;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 500;
+                transform: translateX(28%);
+            }
+        }
+    }
+
+    .main-cards-6{
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        left: 50%; // Center the main cards horizontally
+        transform: translateX(-50%); // Center the main cards horizontally
+        top: 1640px;
+        .card{
+            border:none;
+            p{
+                display: flex;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 500;
+                transform: translateX(28%);
+            }
+        }
+    }
+
+    .main-cards-7{
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        left: 50%; // Center the main cards horizontally
+        transform: translateX(-50%); // Center the main cards horizontally
+        top: 1850px;
+        .card{
+            border:none;
+            p{
+                display: flex;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 500;
+                transform: translateX(28%);
+            }
+        }
+    }
+
+    .main-cards-8{
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        left: 50%; // Center the main cards horizontally
+        transform: translateX(-50%); // Center the main cards horizontally
+        top: 2060px;
+        .card{
+            border:none;
+            p{
+                display: flex;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 500;
+                transform: translateX(28%);
+            }
+        }
+    }
+
+    .main-cards-9{
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        left: 50%; // Center the main cards horizontally
+        transform: translateX(-50%); // Center the main cards horizontally
+        top: 2270px;
+        .card{
+            border:none;
+            p{
+                display: flex;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 500;
+                transform: translateX(28%);
+            }
+        }
+    }
+
+    .main-cards-10{
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        left: 50%; // Center the main cards horizontally
+        transform: translateX(-50%); // Center the main cards horizontally
+        top: 2480px;
+        .card{
+            border:none;
+            p{
+                display: flex;
+                text-align: center;
+                font-size: 17px;
+                font-weight: 500;
+                transform: translateX(28%);
+            }
+        }
+    }
+        
     .img {
         img {
             height: 200px;
@@ -43,6 +227,8 @@
             position: absolute;
             top: 150px;
             left: 0;
+
         }
     }
 }
+
