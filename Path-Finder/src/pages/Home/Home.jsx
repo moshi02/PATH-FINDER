@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React,{useEffect} from 'react'
-
 import Navbar from '../../components/Navbar'
 import Newscover from '../../components/Newscover'
 import Footer from '../../components/Footer'
@@ -23,13 +22,14 @@ const Home = () => {
   
   return (
     <>
-    <Navbar/>
+    
+    
     <hr />
     <div className='first-page'>
         <div className="first-text">
             <h1>Discover Your Perfect Career</h1>
             <p>Make smart decisions with our revolutionary AI enabled career guidance tools and expert career counsellors</p>
-            <button>Get Started</button>
+            <button ><a href="#second-page"> Get Started</a></button>
             <h4>Career Assessment | Personalised Guidance | Profile Building | Virtual Internships |
 College Roadmap Planning | College Applications | Scholarship Hunt
 </h4>
@@ -60,7 +60,7 @@ College Roadmap Planning | College Applications | Scholarship Hunt
     {/* </div> */}
     </div>
 
-    <div className="second-page">
+    <div id="second-page">
       <h3>What we <span>provide !</span></h3>
         {/* <h3>Trusted by users <span> globally </span>! </h3> */}
         <section className="articles">

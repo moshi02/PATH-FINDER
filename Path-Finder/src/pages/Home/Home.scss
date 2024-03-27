@@ -247,7 +247,7 @@ ul {
 
 
 .first-page{
-    margin-top: 100px;
+    margin-top: 87px;
     // background-color: red;
     overflow: hidden;
 
@@ -257,11 +257,17 @@ ul {
         padding-bottom: 10px;
     }
     button{
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    button a{
+      text-decoration: none;
         margin-bottom: 19px;
         background-color: blue;
         color: white;
         padding: 8px;
         border-radius: 8px;
+        // padding-bottom: 10p;
     }
         height: 88vh;
     // width: 70vw;
@@ -285,7 +291,7 @@ ul {
 }
 
 
-.second-page{
+#second-page{
   padding-top: 50px;
   padding-bottom: 50px;
   // height:100vh;
