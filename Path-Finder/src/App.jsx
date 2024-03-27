@@ -8,13 +8,13 @@ import Articles from './pages/Articles/Articles';
 const App = () => {
   return (
     <div>
-      <Router>
+      {/* <Router>
         <Routes>
         <Route path='/' element={<Home/>}/>
         </Routes>
-      </Router>
+      </Router> */}
       {/* <Careercard /> */}
-      {/* <About /> */}
+      <About />
       {/* <Articles/> */}
       
     </div>
