@@ -4,12 +4,26 @@
         background-color: white;
     }
 
-    
-.maindiv{
+  .navbar{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    position: fixed;
+    top:0;
+    background-color: white;
+    z-index: 999;
+
+    .maindiv{
+    background-color: white;
+    margin-bottom: 10px;
+    // z-index: 9999;
+    // position: sticky;
+    top: 0;
+    left: 0;
     align-items: center;
     display: flex;
     justify-content: flex-start;
-    padding-top: 40px;
+    padding-top: 20px;
+   
+    margin-right: 128px;
     padding-left: 100px;
     gap: 80px;
     .login-section button{
@@ -26,7 +40,7 @@
     }
    
     }
-   
+}
 
 
  .Content button {

@@ -23,13 +23,10 @@ const Careers = () => {
         </div>
       </div>
       {/* ----------------------------------------------------------------------------------------------------------------------------------------- */}
-
-      
-
       <div className="main-cards-1">
         <div className="card" style={{ width: '21rem' }}>
         <img src="src\images\2.png" className="card-img-top" alt="..." />
-        <div className="card-body">
+        <div className="card-body ">
           <p className="card-text">Computer Science</p>
         </div>
         </div>
@@ -48,7 +45,7 @@ const Careers = () => {
         </div>
         </div>
     </div>
-     {/* /// */}
+    
      <div className="main-cards-2">
         <div className="card" style={{ width: '21rem' }}>
         <img src="src\images\2.png" className="card-img-top" alt="..." />
@@ -71,7 +68,7 @@ const Careers = () => {
         </div>
         </div>
     </div>
-     {/* /// */}
+    .
      <div className="main-cards-3">
         <div className="card" style={{ width: '21rem' }}>
         <img src="src\images\2.png" className="card-img-top" alt="..." />
@@ -94,7 +91,7 @@ const Careers = () => {
         </div>
         </div>
     </div>
-     {/* /// */}
+    .
 
     <div className="main-cards-4">
         <div className="card" style={{ width: '21rem' }}>
@@ -118,7 +115,7 @@ const Careers = () => {
         </div>
         </div>
     </div>
-     {/* /// */}
+    .
     
 
 <div className="main-cards-5">
@@ -143,7 +140,7 @@ const Careers = () => {
         </div>
         </div>
     </div>
-     {/* /// */}
+    .
 
 
 <div className="main-cards-6">
@@ -168,7 +165,7 @@ const Careers = () => {
         </div>
         </div>
     </div>
-     {/* /// */}
+    .
 
 
 <div className="main-cards-7">
@@ -194,7 +191,7 @@ const Careers = () => {
         </div>
     </div>
 
-         {/* /// */}
+        .
 
 
 <div className="main-cards-8">
@@ -220,7 +217,7 @@ const Careers = () => {
         </div>
     </div>
 
-         {/* /// */}
+        .
 
 
 <div className="main-cards-9">
@@ -246,7 +243,7 @@ const Careers = () => {
         </div>
     </div>
 
-        {/* /// */}
+       .
 
 
 <div className="main-cards-10">

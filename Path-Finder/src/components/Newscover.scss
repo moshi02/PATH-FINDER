@@ -1,7 +1,8 @@
 .newsletter-section {
     background:  url("../images/Newscover.png");
-    position: absolute;
-    top:2800px;
+    position: relative;
+    // top:3000px;
+    bottom: 0;
     width: 100%;
     height: 400px;
     display: flex;
