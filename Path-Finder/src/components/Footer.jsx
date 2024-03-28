@@ -9,10 +9,7 @@ const Footer = () => {
                 <div className="col">
                     <div className="title">About</div>
                     <div className="text">
-                        Voluptatem accusantium doloremque laudantium, totam rem
-                        aperiam, eaque ipsa quae ab illo inventore veritatis et
-                        quasi architecto beatae vitae dicta sunt explicabo eaque
-                        ipsa quae ab illo.
+                    PathFinder: Your personalized career guide. Our platform offers tailored career paths, expert counseling, and curated resources for informed career decisions. Join us to unlock your potential for success.
                     </div>
                 </div>
                 <div className="col">
@@ -20,20 +17,19 @@ const Footer = () => {
                     <div className="c-item">
                         <FaLocationArrow />
                         <div className="text">
-                            Kayaloram Rd, Punnamada, Kottankulangara, Alappuzha,
-                            Kerala, 688006
+                            VIT Bhopal , Bhopal ,Madhya Pradesh , India
                         </div>
                     </div>
                     <div className="c-item">
                         <FaMobileAlt />
-                        <div className="text">Phone: 0471 272 0261</div>
+                        <div className="text">Phone: 9835928584</div>
                     </div>
                     <div className="c-item">
                         <FaEnvelope />
-                        <div className="text">Email: store@jsdev.com</div>
+                        <div className="text">Email: mehulsingh@pathfind.com</div>
                     </div>
                 </div>
-                <div className="col">
+                {/* <div className="col">
                     <div className="title">Categories</div>
                     <span className="text">Headphones</span>
                     <span className="text">Smart Watches</span>
@@ -41,18 +37,18 @@ const Footer = () => {
                     <span className="text">Wireless Earbuds</span>
                     <span className="text">Home Theatre</span>
                     <span className="text">Projectors</span>
-                </div>
+                </div> */}
                 <div className="col">
                     <div className="title">Pages</div>
                     <span className="text">Home</span>
                     <span className="text">About</span>
-                    <span className="text">Privacy Policy</span>
-                    <span className="text">Returns</span>
-                    <span className="text">Terms & Conditions</span>
+                    <span className="text">Articles</span>
+                    <span className="text">Careers</span>
+                    <span className="text">Counselors</span>
                     <span className="text">Contact Us</span>
                 </div>
             </div>
-            <div className="bottom-bar">
+            {/* <div className="bottom-bar">
                 <div className="bottom-bar-content">
                     <span className="text">
                         JSDEVSTORE 2022 CREATED BY JS DEV. PREMIUM E-COMMERCE
@@ -60,7 +56,7 @@ const Footer = () => {
                     </span>
                     <img src="src\images\payments.png" alt=""/>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

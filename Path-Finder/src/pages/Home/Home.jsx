@@ -35,10 +35,10 @@ College Roadmap Planning | College Applications | Scholarship Hunt
 </h4>
 <img src="https://mindlerimages.imgix.net/tinyimg/desktop.svg" alt="" />
 </div>
-<div className='large-img'>
+{/* <div className='large-img'>
         <img src="src\images\Screenshot 2024-03-22 201620.png" alt="" />
 
-</div>
+</div> */}
 
 
     
@@ -125,14 +125,13 @@ College Roadmap Planning | College Applications | Scholarship Hunt
     <MDBCard style={{ maxWidth: '540px' }}>
       <MDBRow className='g-0'>
         <MDBCol md='4'>
-          <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' alt='...' fluid />
+          <MDBCardImage src="src\images\userimg.jpg" alt='...' fluid />
         </MDBCol>
         <MDBCol md='8'>
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>AryanDegi</MDBCardTitle>
             <MDBCardText>
-              This is a wider card with supporting text below as a natural lead-in to additional content. This
-              content is a little bit longer.
+            I stumbled upon this website and it's been a game-changer! , the ability to connect with experienced counselors has been invaluable. Their insights and advice have given me the confidence to pursue my dreams. Highly recommend this platform to anyone in need of career guidance!
             </MDBCardText>
             <MDBCardText>
               <small className='text-muted'>Last updated 3 mins ago</small>
@@ -144,14 +143,13 @@ College Roadmap Planning | College Applications | Scholarship Hunt
     <MDBCard style={{ maxWidth: '540px' }}>
       <MDBRow className='g-0'>
         <MDBCol md='4'>
-          <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' alt='...' fluid />
+          <MDBCardImage src="src\images\userimg.jpg" alt='...' fluid />
         </MDBCol>
         <MDBCol md='8'>
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>GarimaSharma</MDBCardTitle>
             <MDBCardText>
-              This is a wider card with supporting text below as a natural lead-in to additional content. This
-              content is a little bit longer.
+              This website offers a fantastic combination of technology and human touch. I feel more confident about my career decisions now, thanks to this platform.
             </MDBCardText>
             <MDBCardText>
               <small className='text-muted'>Last updated 3 mins ago</small>
@@ -163,14 +161,13 @@ College Roadmap Planning | College Applications | Scholarship Hunt
     <MDBCard style={{ maxWidth: '540px' }}>
       <MDBRow className='g-0'>
         <MDBCol md='4'>
-          <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' alt='...' fluid />
+          <MDBCardImage src="src\images\userimg.jpg" alt='...' fluid />
         </MDBCol>
         <MDBCol md='8'>
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>ArpitBala</MDBCardTitle>
             <MDBCardText>
-              This is a wider card with supporting text below as a natural lead-in to additional content. This
-              content is a little bit longer.
+            Connecting with counselors was straightforward, and their advice was practical and insightful. However, I wish there were more resources or tools available beyond just the counselor sessions. Overall, though, I'm grateful for the assistance this platform has provided in shaping my career path.
             </MDBCardText>
             <MDBCardText>
               <small className='text-muted'>Last updated 3 mins ago</small>
@@ -182,14 +179,13 @@ College Roadmap Planning | College Applications | Scholarship Hunt
      <MDBCard style={{ maxWidth: '540px' }}>
       <MDBRow className='g-0'>
         <MDBCol md='4'>
-          <MDBCardImage src='https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.webp' alt='...' fluid />
+          <MDBCardImage src="src\images\userimg.jpg" alt='...' fluid />
         </MDBCol>
         <MDBCol md='8'>
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>KshitijJain</MDBCardTitle>
             <MDBCardText>
-              This is a wider card with supporting text below as a natural lead-in to additional content. This
-              content is a little bit longer.
+            I found this website to be user-friendly and intuitive, which made my career exploration process much smoother. The recommender system provided me with insightful suggestions, helping me discover career paths I hadn't considered.
             </MDBCardText>
             <MDBCardText>
               <small className='text-muted'>Last updated 3 mins ago</small>
@@ -207,22 +203,22 @@ College Roadmap Planning | College Applications | Scholarship Hunt
 </h2>
       <div className="section-1">
       <div className="left-side">
-        <h2>WHat are the <span>challanges</span> a student faces? </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nihil ratione neque accusantium magni fugit dignissimos consequatur unde officia commodi excepturi eligendi eius magnam distinctio non placeat voluptate quos. Qui hic suscipit sequi iste rerum.</p>
+        <h2>What are the <span>challenges</span> a student faces? </h2>
+        <p>The major problem which is faced by students is lack of clarity , they struggle to identify their interests , long term goals , strengths and weakness which leads to confusion .Pressure from family and peers to take a certain career path is also one of the main challenges of a student nowadays .They fear failure more than anything else, fearing making the wrong choice or not living up to expectations set by others.</p>
       </div>
       <div className="right-side">
-        <img src="https://studi.live/wp-content/uploads/2021/08/Problems-faced-by-students-during-their-college-life-1.png" alt="" />
+        <img src="https://epe.brightspotcdn.com/2c/fb/3147ce2b4b36be4165148740c799/072023-37-zikmund-fs-hendrie.jpg" alt="" />
       </div>
       </div>
 
       <div className="section-2">
         <div className="left-side">
-        <img src="https://studi.live/wp-content/uploads/2021/08/Problems-faced-by-students-during-their-college-life-1.png" alt="" />
+        <img src="https://www.weareteachers.com/wp-content/uploads/Teacher-helping-a-student-write.jpg" alt="" />
 
         </div>
         <div className="right-side">
           <h2>How do we  <span>HELP</span > the students with the same</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est eaque quis aperiam rem quos fugiat neque quo ab dicta, suscipit cupiditate, cum, molestiae dolore explicabo corrupti tempora velit libero voluptas commodi nulla. Possimus, omnis!</p>
+          <p>At PathFinder, we understand the challenges students face when planning their careers. We address these hurdles by offering personalized career assessments and expert one-on-one guidance through our counseling services. Our advanced recommender system ensures that students receive tailored recommendations for relevant career paths based on their unique profiles. Additionally, we have curated a vast amount of data including articles, guides, and potential career paths to empower our users to make informed decisions and progress confidently in their career journeys.</p>
         </div>
       </div>
     </div>
@@ -237,11 +233,11 @@ College Roadmap Planning | College Applications | Scholarship Hunt
             <div className="wrapper">
                 {/* COMPANY INFORMATION */}
                 <div className="company-info">
-                    <h3>Phoenix Web Design</h3>
+                    <h3>PATH|FINDER</h3>
                     <ul>
-                        <li><i className="fa fa-road"></i> 44 Main Street</li>
-                        <li><i className="fa fa-phone"></i> (555) 555-5555</li>
-                        <li><i className="fa fa-envelope"></i> test@phoenix.com</li>
+                        <li><i className="fa fa-road"></i> VIT Bhopal</li>
+                        <li><i className="fa fa-phone"></i> 975972679532</li>
+                        <li><i className="fa fa-envelope"></i> mehulsingh@pathfind.com</li>
                     </ul>
                 </div>
                 {/* End .company-info */}
