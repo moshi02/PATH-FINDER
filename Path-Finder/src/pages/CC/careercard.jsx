@@ -3,7 +3,6 @@ import "../CC/CC.scss";
 import Navbar from '../../components/Navbar';
 import Newscover from '../../components/Newscover';
 import Footer from '../../components/Footer';
-import "../CC/script";
 import '@fortawesome/fontawesome-free/css/all.css';
 
 // import '@fortawesome/fontawesome-free/css/all.css'; 
@@ -59,7 +58,6 @@ function Card() {
 
   return (
     <>
-    <Navbar/>
     <div className='maindiv'>
         <div className="img">      
           <img className="banner" src="src\images\banner for careers page.png" alt="" />

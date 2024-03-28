@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^4.30.7",
     "@fortawesome/fontawesome-free": "^6.5.1",
     "jquery": "^3.7.1",
     "mdb-react-ui-kit": "^7.2.0",
@@ -18,7 +19,8 @@
     "react-fast-marquee": "^1.6.4",
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.22.3",
-    "swiper": "^11.0.7"
+    "swiper": "^11.0.7",
+    "switch": "^0.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",
