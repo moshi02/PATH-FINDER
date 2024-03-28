@@ -1,17 +1,20 @@
 
 .footer {
+   
     position: relative;
     // top: 3000px;
     bottom: 0;
     left: 0;
     width: 100%;
     .footer-content {
+
         padding: 50px 20px;
         max-width: 1200px;
         margin: 0 auto;
         display: flex;
         flex-flow: wrap;
-        gap: 20px;
+        gap: 200px;
+        align-items: center;
        
         .col {
             max-width: 300px;

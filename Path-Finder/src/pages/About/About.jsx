@@ -1,6 +1,7 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react'
+import { FaLinkedinIn,FaGithub,FaMailBulk,FaInstagram  } from "react-icons/fa";
+
 import "./About.css"
 import Navbar from '../../components/Navbar';
 import Newscover from '../../components/Newscover';
@@ -100,27 +101,27 @@ const About = () => {
                   width="100"
                   className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                 />
-                <h5 className="mb-0">PRIYANSHU RANJAN</h5>
+                <h5 className="mb-0">Team Member Name</h5>
                 <span className="small text-uppercase text-muted">Position</span>
                 <ul className="social mb-0 list-inline mt-3">
                   <li className="list-inline-item">
-                    <a href="#" className="social-link">
-                      <i className="fa fa-facebook-f"></i>
+                    <a className="social-link">
+                      <FaLinkedinIn size={16} />
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-twitter"></i>
+                      <FaGithub  size={16}/>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-instagram"></i>
+                      <FaMailBulk size={16}/>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-linkedin"></i>
+                      <FaInstagram size={16}/>
                     </a>
                   </li>
                 </ul>
@@ -139,23 +140,23 @@ const About = () => {
                 <span className="small text-uppercase text-muted">Position</span>
                 <ul className="social mb-0 list-inline mt-3">
                   <li className="list-inline-item">
-                    <a href="#" className="social-link">
-                      <i className="fa fa-facebook-f"></i>
+                    <a className="social-link">
+                      <FaLinkedinIn size={16} />
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-twitter"></i>
+                      <FaGithub  size={16}/>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-instagram"></i>
+                      <FaMailBulk size={16}/>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-linkedin"></i>
+                      <FaInstagram size={16}/>
                     </a>
                   </li>
                 </ul>
@@ -174,23 +175,23 @@ const About = () => {
                 <span className="small text-uppercase text-muted">Position</span>
                 <ul className="social mb-0 list-inline mt-3">
                   <li className="list-inline-item">
-                    <a href="#" className="social-link">
-                      <i className="fa fa-facebook-f"></i>
+                    <a className="social-link">
+                      <FaLinkedinIn size={16} />
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-twitter"></i>
+                      <FaGithub  size={16}/>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-instagram"></i>
+                      <FaMailBulk size={16}/>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-linkedin"></i>
+                      <FaInstagram size={16}/>
                     </a>
                   </li>
                 </ul>
@@ -209,23 +210,23 @@ const About = () => {
                 <span className="small text-uppercase text-muted">Position</span>
                 <ul className="social mb-0 list-inline mt-3">
                   <li className="list-inline-item">
-                    <a href="#" className="social-link">
-                      <i className="fa fa-facebook-f"></i>
+                    <a className="social-link">
+                      <FaLinkedinIn size={16} />
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-twitter"></i>
+                      <FaGithub  size={16}/>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-instagram"></i>
+                      <FaMailBulk size={16}/>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-linkedin"></i>
+                      <FaInstagram size={16}/>
                     </a>
                   </li>
                 </ul>
@@ -244,23 +245,23 @@ const About = () => {
                 <span className="small text-uppercase text-muted">Position</span>
                 <ul className="social mb-0 list-inline mt-3">
                   <li className="list-inline-item">
-                    <a href="#" className="social-link">
-                      <i className="fa fa-facebook-f"></i>
+                    <a className="social-link">
+                      <FaLinkedinIn size={16} />
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-twitter"></i>
+                      <FaGithub  size={16}/>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-instagram"></i>
+                      <FaMailBulk size={16}/>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a href="#" className="social-link">
-                      <i className="fa fa-linkedin"></i>
+                      <FaInstagram size={16}/>
                     </a>
                   </li>
                 </ul>

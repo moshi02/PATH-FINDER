@@ -58,6 +58,7 @@ function Card() {
 
   return (
     <>
+    <Navbar />
     <div className='maindiv'>
         <div className="img">      
           <img className="banner" src="src\images\banner for careers page.png" alt="" />

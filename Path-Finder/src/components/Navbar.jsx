@@ -42,7 +42,7 @@ const Navbar = () => {
 
         </div>
         <div className='login-section'>
-          <button>Login | <span>Sign up</span></button>
+          <button> <Link to="/Login">Login | <span>Sign up</span></Link></button>
         </div>
       </div>
     </div>
