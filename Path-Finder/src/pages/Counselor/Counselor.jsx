@@ -12,7 +12,7 @@ const Counselor = () => {
         <div className="left-side">
           <h1>Welcome to Counselor Section</h1>
           <p>At PathFinder, we understand that navigating life's challenges can sometimes feel overwhelming. That's why we offer professional counseling services to provide support, guidance, and solutions tailored to your unique needs. Our team of experienced counselors specializes in various areas</p>
-          <button>Get Started</button>
+          <button ><a href="#line1"> Get Started</a></button>
           
         </div>
         <div className="right-side">
@@ -32,16 +32,16 @@ Explore our diverse counseling domains and select the one that resonates with yo
     
     </div>
     <div className="page3">
-      <div className="line1">
+      <div id="line1">
     <div className="wrap animate pop">
   <div className="overlay">
     <div className="overlay-content animate slide-left delay-2">
-      <h1 className="animate slide-left pop delay-4">Trees</h1>
+      <h1 className="animate slide-left pop delay-4">Mrs.Beast</h1>
       <p
         className="animate slide-left pop delay-5"
-        style={{ color: "white", marginBottom: "2.5rem" }}
+        style={{ color: "rgb(120, 117, 117)", marginBottom: "2.5rem" }}
       >
-        Kingdom: <em>Plantae</em>
+        10+ years <em>Engeneering</em>
       </p>
     </div>
     <div className="image-content animate slide delay-5" />
@@ -53,36 +53,25 @@ Explore our diverse counseling domains and select the one that resonates with yo
   </div>
   <div className="text">
     <p>
-      <img
-        className="inset"
-        src="https://assets.codepen.io/4787486/oak_1.jpg"
-        alt=""
-      />
-      Trees are woody perennial plants that are a member of the kingdom{" "}
-      <em>Plantae</em>. All species of trees are grouped by their genus, family,
-      and order. This helps make identifying and studying trees easier.
-    </p>
-    <p>
-      Apart from providing oxygen for the planet and beauty when they bloom or
-      turn color, trees are very useful. Certain species of hardwood and
-      softwood trees are excellent for timber, making furniture, and paper.
-    </p>
-    <p>
-      When managed properly, trees are a good source of renewable energy and
-      construction material.
+    Embark on a journey of self-discovery and career fulfillment with me as your guide. With 5 of experience in career counseling and a deep understanding of Engeneering field, I am dedicated to helping you navigate the complexities of the job market and find your true calling. Through personalized assessments, coaching sessions, and industry insights, I will empower you to make informed decisions and take confident steps towards your professional goals. Together, we'll uncover your strengths, passions, and aspirations, unlocking endless possibilities for your future. Let's embark on this transformative journey together and turn your dreams into reality.
     </p>
   </div>
+
+</div>
+<div className="btns">
+<button>Book appointment</button>
+<button>Contact Me</button>
 </div>
 
 <div className="wrap animate pop">
   <div className="overlay">
     <div className="overlay-content animate slide-left delay-2">
-      <h1 className="animate slide-left pop delay-4">Trees</h1>
+      <h1 className="animate slide-left pop delay-4">Mrs.Beast</h1>
       <p
         className="animate slide-left pop delay-5"
-        style={{ color: "white", marginBottom: "2.5rem" }}
+        style={{ color: "rgb(120, 117, 117)", marginBottom: "2.5rem" }}
       >
-        Kingdom: <em>Plantae</em>
+        10+ years <em>Engeneering</em>
       </p>
     </div>
     <div className="image-content animate slide delay-5" />
@@ -93,37 +82,25 @@ Explore our diverse counseling domains and select the one that resonates with yo
     </div>
   </div>
   <div className="text">
-    <p>
-      <img
-        className="inset"
-        src="https://assets.codepen.io/4787486/oak_1.jpg"
-        alt=""
-      />
-      Trees are woody perennial plants that are a member of the kingdom{" "}
-      <em>Plantae</em>. All species of trees are grouped by their genus, family,
-      and order. This helps make identifying and studying trees easier.
-    </p>
-    <p>
-      Apart from providing oxygen for the planet and beauty when they bloom or
-      turn color, trees are very useful. Certain species of hardwood and
-      softwood trees are excellent for timber, making furniture, and paper.
-    </p>
-    <p>
-      When managed properly, trees are a good source of renewable energy and
-      construction material.
+  <p>
+    Embark on a journey of self-discovery and career fulfillment with me as your guide. With 5 of experience in career counseling and a deep understanding of Engeneering field, I am dedicated to helping you navigate the complexities of the job market and find your true calling. Through personalized assessments, coaching sessions, and industry insights, I will empower you to make informed decisions and take confident steps towards your professional goals. Together, we'll uncover your strengths, passions, and aspirations, unlocking endless possibilities for your future. Let's embark on this transformative journey together and turn your dreams into reality.
     </p>
   </div>
+</div>
+<div className="btns">
+<button>Book appointment</button>
+<button>Contact Me</button>
 </div>
 
 <div className="wrap animate pop">
   <div className="overlay">
     <div className="overlay-content animate slide-left delay-2">
-      <h1 className="animate slide-left pop delay-4">Trees</h1>
+      <h1 className="animate slide-left pop delay-4">Mrs.Beast</h1>
       <p
         className="animate slide-left pop delay-5"
-        style={{ color: "white", marginBottom: "2.5rem" }}
+        style={{ color: "rgb(120, 117, 117)", marginBottom: "2.5rem" }}
       >
-        Kingdom: <em>Plantae</em>
+        10+ years <em>Engeneering</em>
       </p>
     </div>
     <div className="image-content animate slide delay-5" />
@@ -135,37 +112,27 @@ Explore our diverse counseling domains and select the one that resonates with yo
   </div>
   <div className="text">
     <p>
-      <img
-        className="inset"
-        src="https://assets.codepen.io/4787486/oak_1.jpg"
-        alt=""
-      />
-      Trees are woody perennial plants that are a member of the kingdom{" "}
-      <em>Plantae</em>. All species of trees are grouped by their genus, family,
-      and order. This helps make identifying and studying trees easier.
-    </p>
-    <p>
-      Apart from providing oxygen for the planet and beauty when they bloom or
-      turn color, trees are very useful. Certain species of hardwood and
-      softwood trees are excellent for timber, making furniture, and paper.
-    </p>
-    <p>
-      When managed properly, trees are a good source of renewable energy and
-      construction material.
+      Embark on a journey of self-discovery and career fulfillment with me as your guide. With 5 of experience in career counseling and a deep understanding of Engeneering field, I am dedicated to helping you navigate the complexities of the job market and find your true calling. Through personalized assessments, coaching sessions, and industry insights, I will empower you to make informed decisions and take confident steps towards your professional goals. Together, we'll uncover your strengths, passions, and aspirations, unlocking endless possibilities for your future. Let's embark on this transformative journey together and turn your dreams into reality.
     </p>
   </div>
 </div>
+<div className="btns">
+<button>Book appointment</button>
+<button>Contact Me</button>
 </div>
+</div>
+
+
 <div className="line2">
 <div className="wrap animate pop">
   <div className="overlay">
     <div className="overlay-content animate slide-left delay-2">
-      <h1 className="animate slide-left pop delay-4">Trees</h1>
+      <h1 className="animate slide-left pop delay-4">Mrs.Beast</h1>
       <p
         className="animate slide-left pop delay-5"
-        style={{ color: "white", marginBottom: "2.5rem" }}
+        style={{ color: "rgb(120, 117, 117)", marginBottom: "2.5rem" }}
       >
-        Kingdom: <em>Plantae</em>
+        10+ years <em>Engeneering</em>
       </p>
     </div>
     <div className="image-content animate slide delay-5" />
@@ -177,36 +144,25 @@ Explore our diverse counseling domains and select the one that resonates with yo
   </div>
   <div className="text">
     <p>
-      <img
-        className="inset"
-        src="https://assets.codepen.io/4787486/oak_1.jpg"
-        alt=""
-      />
-      Trees are woody perennial plants that are a member of the kingdom{" "}
-      <em>Plantae</em>. All species of trees are grouped by their genus, family,
-      and order. This helps make identifying and studying trees easier.
-    </p>
-    <p>
-      Apart from providing oxygen for the planet and beauty when they bloom or
-      turn color, trees are very useful. Certain species of hardwood and
-      softwood trees are excellent for timber, making furniture, and paper.
-    </p>
-    <p>
-      When managed properly, trees are a good source of renewable energy and
-      construction material.
+      Embark on a journey of self-discovery and career fulfillment with me as your guide. With 5 of experience in career counseling and a deep understanding of Engeneering field, I am dedicated to helping you navigate the complexities of the job market and find your true calling. Through personalized assessments, coaching sessions, and industry insights, I will empower you to make informed decisions and take confident steps towards your professional goals. Together, we'll uncover your strengths, passions, and aspirations, unlocking endless possibilities for your future. Let's embark on this transformative journey together and turn your dreams into reality.
     </p>
   </div>
 </div>
+<div className="btns">
+<button>Book appointment</button>
+<button>Contact Me</button>
+</div>
+
 
 <div className="wrap animate pop">
   <div className="overlay">
     <div className="overlay-content animate slide-left delay-2">
-      <h1 className="animate slide-left pop delay-4">Trees</h1>
+      <h1 className="animate slide-left pop delay-4">Mrs.Beast</h1>
       <p
         className="animate slide-left pop delay-5"
-        style={{ color: "white", marginBottom: "2.5rem" }}
+        style={{ color: "rgb(120, 117, 117)", marginBottom: "2.5rem" }}
       >
-        Kingdom: <em>Plantae</em>
+        10+ years <em>Engeneering</em>
       </p>
     </div>
     <div className="image-content animate slide delay-5" />
@@ -217,37 +173,27 @@ Explore our diverse counseling domains and select the one that resonates with yo
     </div>
   </div>
   <div className="text">
-    <p>
-      <img
-        className="inset"
-        src="https://assets.codepen.io/4787486/oak_1.jpg"
-        alt=""
-      />
-      Trees are woody perennial plants that are a member of the kingdom{" "}
-      <em>Plantae</em>. All species of trees are grouped by their genus, family,
-      and order. This helps make identifying and studying trees easier.
-    </p>
-    <p>
-      Apart from providing oxygen for the planet and beauty when they bloom or
-      turn color, trees are very useful. Certain species of hardwood and
-      softwood trees are excellent for timber, making furniture, and paper.
-    </p>
-    <p>
-      When managed properly, trees are a good source of renewable energy and
-      construction material.
+  <p>
+    Embark on a journey of self-discovery and career fulfillment with me as your guide. With 5 of experience in career counseling and a deep understanding of Engeneering field, I am dedicated to helping you navigate the complexities of the job market and find your true calling. Through personalized assessments, coaching sessions, and industry insights, I will empower you to make informed decisions and take confident steps towards your professional goals. Together, we'll uncover your strengths, passions, and aspirations, unlocking endless possibilities for your future. Let's embark on this transformative journey together and turn your dreams into reality.
     </p>
   </div>
 </div>
+<div className="btns">
+<button>Book appointment</button>
+<button>Contact Me</button>
+</div>
+
+
 
 <div className="wrap animate pop">
   <div className="overlay">
     <div className="overlay-content animate slide-left delay-2">
-      <h1 className="animate slide-left pop delay-4">Trees</h1>
+      <h1 className="animate slide-left pop delay-4">Mrs.Beast</h1>
       <p
         className="animate slide-left pop delay-5"
-        style={{ color: "white", marginBottom: "2.5rem" }}
+        style={{ color: "rgb(120, 117, 117)", marginBottom: "2.5rem" }}
       >
-        Kingdom: <em>Plantae</em>
+        10+ years <em>Engeneering</em>
       </p>
     </div>
     <div className="image-content animate slide delay-5" />
@@ -258,26 +204,14 @@ Explore our diverse counseling domains and select the one that resonates with yo
     </div>
   </div>
   <div className="text">
-    <p>
-      <img
-        className="inset"
-        src="https://assets.codepen.io/4787486/oak_1.jpg"
-        alt=""
-      />
-      Trees are woody perennial plants that are a member of the kingdom{" "}
-      <em>Plantae</em>. All species of trees are grouped by their genus, family,
-      and order. This helps make identifying and studying trees easier.
-    </p>
-    <p>
-      Apart from providing oxygen for the planet and beauty when they bloom or
-      turn color, trees are very useful. Certain species of hardwood and
-      softwood trees are excellent for timber, making furniture, and paper.
-    </p>
-    <p>
-      When managed properly, trees are a good source of renewable energy and
-      construction material.
+  <p>
+    Embark on a journey of self-discovery and career fulfillment with me as your guide. With 5 of experience in career counseling and a deep understanding of Engeneering field, I am dedicated to helping you navigate the complexities of the job market and find your true calling. Through personalized assessments, coaching sessions, and industry insights, I will empower you to make informed decisions and take confident steps towards your professional goals. Together, we'll uncover your strengths, passions, and aspirations, unlocking endless possibilities for your future. Let's embark on this transformative journey together and turn your dreams into reality.
     </p>
   </div>
+</div>
+<div className="btns">
+<button>Book appointment</button>
+<button>Contact Me</button>
 </div>
 </div>
     </div>
