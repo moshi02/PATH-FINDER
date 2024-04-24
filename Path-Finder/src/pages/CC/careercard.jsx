@@ -1,10 +1,9 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react'; // Import React and useEffect
 import "../CC/CC.scss";
 import Navbar from '../../components/Navbar';
 import Newscover from '../../components/Newscover';
 import Footer from '../../components/Footer';
 import '@fortawesome/fontawesome-free/css/all.css';
-
 // import '@fortawesome/fontawesome-free/css/all.css'; 
 
 function Card() {

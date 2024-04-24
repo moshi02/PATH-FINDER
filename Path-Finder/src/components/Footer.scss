@@ -17,12 +17,20 @@
         align-items: center;
        
         .col {
+            a{
+                text-decoration: none;
+                color:black;
+            }
             max-width: 300px;
             &:nth-child(3) {
                 width: 150px;
                
             }
             .title {
+                a{
+                    text-decoration: none;
+
+                }
                 margin-bottom: 20px;
                 font-size: 20px;
             }

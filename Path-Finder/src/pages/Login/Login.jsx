@@ -1,5 +1,8 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React, { useState } from 'react';
+import { FaLinkedinIn,FaGithub,FaMailBulk,FaInstagram,FaAddressBook, FaLock  } from "react-icons/fa";
+
 import "./Login.scss"
 function Login() {
   const [isSignUpMode, setIsSignUpMode] = useState(false);
@@ -32,27 +35,27 @@ function Login() {
         <form action="" className="sign-in-form">
           <h2 className="title">Sign in</h2>
           <div className="input-field">
-            <i className="fas fa-user"></i>
+            <FaAddressBook />
             <input type="text" placeholder="Username" />
           </div>
           <div className="input-field">
-            <i className="fas fa-lock"></i>
+            <FaLock />
             <input type="password" placeholder="Password" />
           </div>
           <input type="submit" value="Login" className="btn" />
           <p className="social-text">Or Sign in with social platform</p>
           <div className="social-media">
             <a href="#" className="social-icon">
-              <i className="fab fa-facebook"></i>
+              <FaLinkedinIn size={20} />
             </a>
             <a href="#" className="social-icon">
-              <i className="fab fa-twitter"></i>
+              <FaGithub size={20}/>
             </a>
             <a href="#" className="social-icon">
-              <i className="fab fa-google"></i>
+              <FaMailBulk size={20} />
             </a>
             <a href="#" className="social-icon">
-              <i className="fab fa-linkedin-in"></i>
+              < FaInstagram size={20} />
             </a>
           </div>
           <p className="account-text">
@@ -61,7 +64,7 @@ function Login() {
         </form>
         <form action="" className="sign-up-form">
           <h2 className="title">Sign up</h2>
-          <div className="input-field">
+          <div className="input-field">.
             <i className="fas fa-user"></i>
             <input type="text" placeholder="Username" />
           </div>
@@ -77,16 +80,16 @@ function Login() {
           <p className="social-text">Or Sign in with social platform</p>
           <div className="social-media">
             <a href="#" className="social-icon">
-              <i className="fab fa-facebook"></i>
+              <FaLinkedinIn size={20} />
             </a>
             <a href="#" className="social-icon">
-              <i className="fab fa-twitter"></i>
+              <FaGithub size={20}/>
             </a>
             <a href="#" className="social-icon">
-              <i className="fab fa-google"></i>
+              <FaMailBulk size={20} />
             </a>
             <a href="#" className="social-icon">
-              <i className="fab fa-linkedin-in"></i>
+              < FaInstagram size={20} />
             </a>
           </div>
           <p className="account-text">

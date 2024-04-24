@@ -4,12 +4,19 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import { NavLink } from 'react-router-dom';
 import "../components/Navbar.scss";
 import Card from '../pages/CC/careercard';
+import Newscover from './Newscover';
+import Footer from './Footer';
+import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/clerk-react"
+
+
+
 const Navbar = () => {
   return (
+    <>
     <div className='navbar'> 
       <div className='maindiv'>
-        <div className='Logo' >
-          <img src="src\images\logo.png" alt="" />
+        <div className='Logo' ><Link to="/">
+          <img src="src\images\logo.png" alt="" /></Link>
         </div>
         <div className='Content'>
           {/* <Link to="/">Home</Link>
@@ -41,11 +48,23 @@ const Navbar = () => {
           </ul> */}
 
         </div>
-        <div className='login-section'>
+        {/* <div className='login-section'>
           <button> <Link to="/Login">Login | <span>Sign up</span></Link></button>
-        </div>
-      </div>
+        </div> */}
+        <div className="nav">
+      <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      <SignedIn>
+        <UserButton afterSignOutUrl="/" />
+      </SignedIn>
     </div>
+      </div>
+      
+    </div>
+    
+  
+    </>
   )
 }
 

@@ -34,12 +34,16 @@
     width: 100%;
     height: 100%;
     /* background: linear-gradient(-45deg, #df4adf, #520852); */
-    background: linear-gradient(-45deg, #515c5e, #7c929f);
+    background: rgb(57, 57, 151);
     z-index: 6;
     transform: translateX(100%);
     transition: 1s ease-in-out;
   }
   .signin-signup {
+    svg{
+      margin-left: 14px;
+      margin-right: 10px ;
+    }
     position: absolute;
     top: 0;
     left: 0;

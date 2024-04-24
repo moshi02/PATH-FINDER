@@ -11,6 +11,7 @@ html {
     max-width: 1240px;
   }
   .band {
+    padding-bottom: 50px;
     width: 90%;
     max-width: 1240px;
     margin: 0 auto;

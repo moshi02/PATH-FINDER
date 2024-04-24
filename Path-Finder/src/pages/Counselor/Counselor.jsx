@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import React from "react";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import Newscover from "../../components/Newscover";
@@ -11,12 +12,12 @@ const Counselor = () => {
       <div className="section-1">
         <div className="left-side">
           <h1>Welcome to Counselor Section</h1>
-          <p>At PathFinder, we understand that navigating life's challenges can sometimes feel overwhelming. That's why we offer professional counseling services to provide support, guidance, and solutions tailored to your unique needs. Our team of experienced counselors specializes in various areas</p>
+          <p>At <span>PathFinder</span> we understand that navigating life's challenges can sometimes feel overwhelming. That's why we offer professional counseling services to provide support, guidance, and solutions tailored to your unique needs. Our team of experienced counselors specializes in various areas</p>
           <button ><a href="#line1"> Get Started</a></button>
           
         </div>
         <div className="right-side">
-          <img src="https://recruithire.com/images/blog/finest-applicant-tracking-system.png?v=1680693407713875275" alt="" />
+          <img src="src\pages\Counselor\banner.png" alt="" />
         </div>
       </div>
 

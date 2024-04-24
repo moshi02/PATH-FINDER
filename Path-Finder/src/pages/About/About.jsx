@@ -1,7 +1,7 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/no-unescaped-entities */
 import { FaLinkedinIn,FaGithub,FaMailBulk,FaInstagram  } from "react-icons/fa";
-
+import React from "react";
 import "./About.css"
 import Navbar from '../../components/Navbar';
 import Newscover from '../../components/Newscover';

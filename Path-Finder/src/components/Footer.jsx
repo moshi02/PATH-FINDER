@@ -2,6 +2,10 @@
 import React from 'react';
 import { FaLocationArrow, FaMobileAlt, FaEnvelope } from "react-icons/fa";
 import "../components/Footer.scss";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+
+
 const Footer = () => {
     return (
         <div className="footer">
@@ -40,12 +44,11 @@ const Footer = () => {
                 </div> */}
                 <div className="col">
                     <div className="title">Pages</div>
-                    <span className="text">Home</span>
-                    <span className="text">About</span>
-                    <span className="text">Articles</span>
-                    <span className="text">Careers</span>
-                    <span className="text">Counselors</span>
-                    <span className="text">Contact Us</span>
+                    <span className="text"><Link to="/">Home</Link></span>
+                    <span className="text"><Link to="/About">About</Link></span>
+                    <span className="text"><Link to="/Articles">Articles</Link></span>
+                    <span className="text"><Link to="/Careers">Careers</Link></span>
+                    <span className="text"><Link to="/Counselor">Counselors</Link></span>
                 </div>
             </div>
             {/* <div className="bottom-bar">
