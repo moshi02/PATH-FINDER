@@ -8,6 +8,7 @@ const Counselor = () => {
   return (
     <>
     <Navbar />
+  
     <div className='page1'>
       <div className="section-1">
         <div className="left-side">

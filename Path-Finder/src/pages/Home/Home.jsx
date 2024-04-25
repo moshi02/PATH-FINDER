@@ -6,6 +6,10 @@ import Newscover from '../../components/Newscover'
 import Footer from '../../components/Footer'
 import "../../pages/Home/Home.scss"
 import Marquee from "react-fast-marquee";
+import axios from 'axios';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import toast from "react-hot-toast"
 
 import {
   MDBCard,
@@ -19,7 +23,45 @@ import {
 
 
 
+
+
+
 const Home = () => {
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [company, setCompany] = useState("");
+  const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
+  const navigate = useNavigate();
+
+
+  const handleForm = async(e)=>{
+    e.preventDefault();
+    try{
+      const{data} = await axios.post(
+        "http://localhost:4000/api/v1/form/send",
+        {name,company,email,phone,message},
+        {
+          headers:{
+            "Content-Type" : "application/json",
+          },
+          withCredentials:true,
+        }
+      );
+      toast.success(data.message);
+      setName("");
+      setEmail("");
+      setPhone("");
+      setCompany("");
+      setMessage("");
+      navigate("/");
+
+    }catch(error){
+      error(error);
+    }
+    alert("your message has been sent! We will try to contact you ASAP")
+  }
   
   return (
     <>
@@ -249,26 +291,26 @@ College Roadmap Planning | College Applications | Scholarship Hunt
                     <form id="contact-form">
                         <p>
                             <label htmlFor="name">Name</label>
-                            <input type="text" name="name" id="name" required />
+                            <input placeholder='Enter your name' type="text" name="name" id="name" value={name} onChange={(e)=> setName(e.target.value)}  />
                         </p>
                         <p>
                             <label htmlFor="company">Company</label>
-                            <input type="text" name="company" id="company" />
+                            <input type="text" placeholder='enter company name' name="company" id="company" value={company} onChange={(e)=> setCompany(e.target.value)}/>
                         </p>
                         <p>
                             <label htmlFor="email">E-mail Address</label>
-                            <input type="email" name="email" id="email" required />
+                            <input type="email" placeholder='enter valid email' name="email" id="email" value={email} onChange={(e)=> setEmail(e.target.value)} />
                         </p>
                         <p>
                             <label htmlFor="phone">Phone Number</label>
-                            <input type="text" name="phone" id="phone" />
+                            <input type="text" name="phone" placeholder='enter valid placeholder' id="phone" value={phone} onChange={(e)=>setPhone(e.target.value)} />
                         </p>
                         <p className="full">
                             <label htmlFor="message">Message</label>
-                            <textarea name="message" rows="5" id="message"></textarea>
+                            <input type="text" name="message" id="message" value={message} onChange={(e)=>setMessage(e.target.value)} />
                         </p>
                         <p className="full">
-                            <button type="submit">Submit</button>
+                            <button type="submit" onClick={handleForm}>Submit</button>
                         </p>
                     </form>
                     {/* End #contact-form */}
@@ -278,6 +320,7 @@ College Roadmap Planning | College Applications | Scholarship Hunt
             {/* End .wrapper */}
         </div>
     </div>
+
 
     <Newscover />
     <Footer />

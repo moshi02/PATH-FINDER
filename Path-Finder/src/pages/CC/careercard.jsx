@@ -89,7 +89,7 @@ function Card() {
             <i className="fa fa-close [ js-collapser ]"></i>
             
 
-            <p>Here are sub-parts of Engineering : <br />Electrics and Electronics Engineering<br />
+            <p>Here are sub-parts of Engineering : <br />Electrics and Electronics Engineering : <br />
             Mechanical and Automative Engineering<br />
             Civil Engineering<br />
             Chemical and petrolium Engineering<br />
