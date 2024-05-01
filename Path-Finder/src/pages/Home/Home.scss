@@ -222,7 +222,13 @@ ul {
 
 
 .third-page{
-  
+  p{
+    margin-top: -14px;
+    text-align: center;
+    span{
+      color:blue
+    }
+  }
   Marquee{
    
   }
@@ -259,6 +265,7 @@ ul {
     button{
       font-weight: 500;
       margin-bottom: 20px;
+      background: transparent;
     }
     button a{
       text-decoration: none;

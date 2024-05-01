@@ -1,3 +1,7 @@
+.mainpagediv{
+	background-image: url('https://wallpaperaccess.com/full/1092568.png');
+	margin-top: -20px;
+}
 .page1{
 	// background-image: url("https://th.bing.com/th/id/R.dfd2e067c805666de682259262419878?rik=XTyg%2foN3xVmyuQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fHLJMaFT.jpg&ehk=TqNhWQKPdjTbrdZx%2bgOsi5AUZ%2f2kztOW4bLWKO9Cp9E%3d&risl=&pid=ImgRaw&r=0");
   
@@ -17,7 +21,8 @@
 	margin-top: 100px;
 	padding: 100px;
 	  h1{
-		font-weight: 400;
+		font-weight: 600;
+		font-family: Arial, Helvetica, sans-serif;
 	  text-align: center;
 	  span{
 		color: blue;
@@ -77,7 +82,7 @@
 	}
   }
   
- .page3{
+ #page3{
 	overflow-y: hidden;
 	margin-top: 50px;
 	margin-bottom: 100px;
@@ -116,8 +121,9 @@ width: 100vw;
 }
 
 .card {
-
+border: 2px solid black;
   width: 20rem;
+  padding: 5px;
 
   border-radius: 30px;
   overflow: hidden;
@@ -139,7 +145,7 @@ width: 100vw;
 
   h2 {
     position: absolute;
-    inset: auto auto 30px 30px;
+    inset: auto auto 30px;
     margin: 0;
     transition: inset .3s .3s ease-out;
     font-family: 'Roboto Condensed', sans-serif;
@@ -147,7 +153,11 @@ width: 100vw;
     text-transform: uppercase;
 	color: white;
 	border-radius: 5px;
-	background-color: black;
+	background-color:#10ADE4;
+	margin-bottom: 10px;
+	border:2px solid rgb(28, 19, 19);
+	padding: 2px;
+	text-align: left;
   }
   
   p, a {
@@ -170,12 +180,14 @@ width: 100vw;
   }
   
   &:hover h2 {
-    inset: auto auto 280px 30px;
+    inset: auto auto 240px 30px;
     transition: inset .3s ease-out;
   }
   
   &:hover p, &:hover a {
     opacity: 1;
+	inset: auto auto 0px 30px;
+
     transition: opacity .5s .1s ease-in;
   }
   

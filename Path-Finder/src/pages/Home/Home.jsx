@@ -64,7 +64,7 @@ const Home = () => {
   }
   
   return (
-    <>
+    <div className='mainpagediv'>
     <Navbar />
     
     <hr />
@@ -73,8 +73,8 @@ const Home = () => {
             <h1>Discover Your Perfect Career</h1>
             <p>Make smart decisions with our revolutionary AI enabled career guidance tools and expert career counsellors</p>
             <button ><a href="#second-page"> Get Started</a></button>
-            <h4>Career Assessment | Personalised Guidance | Profile Building | Virtual Internships |
-College Roadmap Planning | College Applications | Scholarship Hunt
+            <h4>Career Assessment | Personalised Guidance|
+College Roadmap Planning | College Applications 
 </h4>
 <img src="https://mindlerimages.imgix.net/tinyimg/desktop.svg" alt="" />
 </div>
@@ -117,7 +117,6 @@ College Roadmap Planning | College Applications | Scholarship Hunt
         <p>
         Explore diverse domains and career paths on our page. From Computer Science to MBA and beyond, discover opportunities in various fields. Gain insights into industries and make informed decisions about your future endeavors. Start exploring careers with us today!        </p>
         <div className="read-more">
-          Read more <span className="sr-only">about this is some title</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 20 20" fill="currentColor">
           </svg>
         </div>
@@ -135,7 +134,6 @@ College Roadmap Planning | College Applications | Scholarship Hunt
         <p>
         Seek guidance and support on our page. From career advice to mental health support, our counselors offer personalized assistance. Schedule a session today and take the first step towards a happier you.        </p>
         <div className="read-more">
-          Read more <span className="sr-only">about this is some title</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 20 20" fill="currentColor">
           </svg>
         </div>
@@ -153,7 +151,6 @@ College Roadmap Planning | College Applications | Scholarship Hunt
         <p>
         Discover insights and knowledge on our page. From career tips to mental health awareness, our articles cover diverse topics. Written by experts, explore our articles and find inspiration for personal and professional growth.        </p>
         <div  className="read-more">
-          Read more <span className="sr-only">about this is some title</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 20 20" fill="currentColor">
           </svg>
         </div>
@@ -164,6 +161,7 @@ College Roadmap Planning | College Applications | Scholarship Hunt
     </div>
     <div className="third-page">
         <h2>Words from our <span>Users!</span>  </h2>
+        <p>Want to add yours? send via mail <span>@mehulsingh2022@vitbhopal.ac.in</span></p>
     <Marquee>
     <MDBCard style={{ maxWidth: '540px' }}>
       <MDBRow className='g-0'>
@@ -208,7 +206,7 @@ College Roadmap Planning | College Applications | Scholarship Hunt
         </MDBCol>
         <MDBCol md='8'>
           <MDBCardBody>
-            <MDBCardTitle>ArpitBala</MDBCardTitle>
+            <MDBCardTitle>RahulSharma</MDBCardTitle>
             <MDBCardText>
             Connecting with counselors was straightforward, and their advice was practical and insightful. However, I wish there were more resources or tools available beyond just the counselor sessions. Overall, though, I'm grateful for the assistance this platform has provided in shaping my career path.
             </MDBCardText>
@@ -279,8 +277,8 @@ College Roadmap Planning | College Applications | Scholarship Hunt
                     <h3>PATH|FINDER</h3>
                     <ul>
                         <li><i className="fa fa-road"></i> VIT Bhopal</li>
-                        <li><i className="fa fa-phone"></i> 975972679532</li>
-                        <li><i className="fa fa-envelope"></i> mehulsingh@pathfind.com</li>
+                        <li><i className="fa fa-phone"></i> 7389098839</li>
+                        <li><i className="fa fa-envelope"></i> mehulsingh2022@vitbhopal.ac.in</li>
                     </ul>
                 </div>
                 {/* End .company-info */}
@@ -324,7 +322,7 @@ College Roadmap Planning | College Applications | Scholarship Hunt
 
     <Newscover />
     <Footer />
-    </>
+    </div>
 
 
     

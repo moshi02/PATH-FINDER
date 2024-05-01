@@ -26,11 +26,11 @@ const Footer = () => {
                     </div>
                     <div className="c-item">
                         <FaMobileAlt />
-                        <div className="text">Phone: 9835928584</div>
+                        <div className="text">Phone: 7389098839</div>
                     </div>
                     <div className="c-item">
                         <FaEnvelope />
-                        <div className="text">Email: mehulsingh@pathfind.com</div>
+                        <div className="text">Email: mehulsingh2022@vitbhopal.ac.in</div>
                     </div>
                 </div>
                 {/* <div className="col">
