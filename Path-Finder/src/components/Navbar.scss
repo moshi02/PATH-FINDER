@@ -107,6 +107,7 @@ nav button a.active {
 .nav{
     gap:5px;
     button{
+        
         background-color: blue;
         padding: 9px;
         border-radius: 10%;
@@ -122,4 +123,9 @@ nav button a.active {
     // background-color: white;
     // padding-left: 320px;
     // padding-right: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
 }
