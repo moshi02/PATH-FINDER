@@ -115,7 +115,7 @@ const Careers = () => {
         </div>
         </div>
     </div>
-    .
+    
     
 
 <div className="main-cards-5">

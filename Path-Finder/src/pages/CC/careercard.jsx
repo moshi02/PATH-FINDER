@@ -6,6 +6,7 @@ import Navbar from '../../components/Navbar';
 // import Footer from '../../components/Footer';
 import '@fortawesome/fontawesome-free/css/all.css';
 import Newscover from '../../components/Newscover';
+import bannerphoto from "../../images/Screenshot 2024-05-02 003503.png"
 
 function Card() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -49,7 +50,8 @@ function Card() {
       <Navbar />
       <div className='maindiv'>
         <div className="img">
-          <img className="banner" src="src\images\banner for careers page.png" alt="" />
+          <img className="banner" src={bannerphoto} alt="" />
+        
         </div>
 
         <h1 className='first-text'>What career are you looking for?</h1>

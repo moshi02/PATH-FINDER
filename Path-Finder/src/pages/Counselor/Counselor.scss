@@ -1,6 +1,7 @@
 .mainpagediv{
 	background-image: url('https://wallpaperaccess.com/full/1092568.png');
-	margin-top: -20px;
+	margin-top: -29px;
+	margin-bottom: -30px;
 }
 .page1{
 	// background-image: url("https://th.bing.com/th/id/R.dfd2e067c805666de682259262419878?rik=XTyg%2foN3xVmyuQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fHLJMaFT.jpg&ehk=TqNhWQKPdjTbrdZx%2bgOsi5AUZ%2f2kztOW4bLWKO9Cp9E%3d&risl=&pid=ImgRaw&r=0");
@@ -11,8 +12,9 @@
 			text-decoration: none;
 			color: white;
 		}
+		font-weight: 700;
 	  margin-top :30px; 
-	  background-color: blue;
+	  background-color: #10ADE4;
 	  color: white;
 	  padding: 10px;
 	  border-radius: 10px;
@@ -47,11 +49,21 @@
 		}
 	  }
 	  .left-side{
+	
+		h1{
+			background-color: #10ADE4;
+			color: white;
+			height: 2px;
+			border-radius: 10px;
+			
+		}
 		span{
 			font-weight: 700;
 		}
 		p{
+			padding-top: 16px;
 		  font-size: 20px;
+		  background-color: white;
 		}
 		width: 50%;
 		text-align: left;

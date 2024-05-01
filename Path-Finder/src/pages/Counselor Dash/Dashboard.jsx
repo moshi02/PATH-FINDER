@@ -215,7 +215,7 @@ const Dashboard = () => {
             </svg>
             <div className="count">6</div>
           </div>
-          <div className="header">Appoitments Requests</div>
+          <div className="header"><h5>Appoitments Requests</h5></div>
           <div className="right-content">
             <div className="requests">
               <div className="req1">

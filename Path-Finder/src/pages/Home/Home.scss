@@ -1,7 +1,12 @@
 
 .fifth-page{
+  h2{
+    background-color: #627EDC;
+    // width:10px ;
+  }
   height: 120vh;
   padding-top: -19px;
+  // background-color: #fff;
  
   .first-texts{
     text-align: center;
@@ -167,6 +172,12 @@ ul {
 
 }
 .fourth-page{
+  p{
+    // padding: 20px;background-color: red;
+    padding-top: 50px;
+    color: black;
+    // background-color: black;
+  }
   padding: 100px;
 
   .section-2{
@@ -188,8 +199,13 @@ ul {
   }
   h2{
     text-align: center;
+    padding: 5px;
+    background-color: #627EDC;;
+    height: 5px;
+    border-radius: 10px;
+
     span{
-      color: blue;
+      color: white;
     }
     padding-bottom: 80px;
   }
@@ -204,6 +220,7 @@ ul {
     display: flex;
     // gap:190px; 
     .right-side{
+      
       width: 50%;
       img{
         height: 400px;
@@ -222,8 +239,17 @@ ul {
 
 
 .third-page{
+  
   p{
+    font-weight: 700;
+    span{
+      font-weight: 700;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+    }
     margin-top: -14px;
+    // background-color: #fff;
     text-align: center;
     span{
       color:blue
@@ -236,6 +262,8 @@ ul {
     // height: 100vh;
     // background-color: red;
     font-size: 30px;
+    color: white;
+
     text-align: center;
     padding-bottom: 30px;
     // color: blue;
@@ -299,10 +327,12 @@ ul {
 
 
 #second-page{
+
   padding-top: 50px;
   padding-bottom: 50px;
   // height:100vh;
     article {
+      border: 2px solid black;
         // margin-top: -620px;
         --img-scale: 1.001;
         --title-color: black;
@@ -316,6 +346,7 @@ ul {
         transition: all 0.4s ease-in-out;
         overflow: hidden;
         height: 500px;
+        
       }
       
       article a::after {
@@ -352,6 +383,7 @@ ul {
       
       .article-body {
         padding: 24px;
+        
       }
       
       article a {

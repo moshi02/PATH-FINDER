@@ -71,7 +71,7 @@ const Home = () => {
     <div className='first-page'>
         <div className="first-text">
             <h1>Discover Your Perfect Career</h1>
-            <p>Make smart decisions with our revolutionary AI enabled career guidance tools and expert career counsellors</p>
+            <p>Make smart career decision with our assistance and support</p>
             <button ><a href="#second-page"> Get Started</a></button>
             <h4>Career Assessment | Personalised Guidance|
 College Roadmap Planning | College Applications 
@@ -107,7 +107,7 @@ College Roadmap Planning | College Applications
       <h3>What we <span>provide !</span></h3>
         {/* <h3>Trusted by users <span> globally </span>! </h3> */}
         <section className="articles">
-  <article>
+  <article className='movecard'>
     <div className="article-wrapper">
       <figure>
         <img src="src\images\Screenshot 2024-03-22 040451.png" alt="" />

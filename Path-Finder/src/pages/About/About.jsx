@@ -9,7 +9,7 @@ import Footer from '../../components/Footer';
 import "./About.css";
 const About = () => {
   return (
-    <div>
+    <div className="mainpagediv">
     <Navbar />      
 
       <div className="bg-light">
