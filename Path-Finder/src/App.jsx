@@ -9,19 +9,23 @@ import Navbar from './components/Navbar';
 import Counselor from "./pages/Counselor/Counselor"
 import Login from './pages/Login/Login';
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/clerk-react"
+import  Dashboard from "./pages/Counselor Dash/Dashboard";
 import "./App.css"
 
 const App = () => {
   return (
     <div className='App'>
       <Routes>
-        <Route path="/" element={ <Home />}  /> 
+        <Route path='/' element={<Home />}/>
+        <Route path="/Dashboard" element={ <Dashboard/>}  /> 
         <Route path="/Careers" element={<Careercard />}  /> 
         <Route path="/Counselor" element={<Counselor />}  /> 
         <Route path="/Articles" element={<Articles />}  /> 
         <Route path="/About" element={<About />}  /> 
-        <Route path="/Login" element={<Login />} />
+        {/* <Route path="/Login" element={<Login />} /> */}
+        {/* <Route path="/Dashboard" element={<Dashboard />}/> */}
       </Routes>
+      {/* < Dashboard / > */}
       
       
     </div>
