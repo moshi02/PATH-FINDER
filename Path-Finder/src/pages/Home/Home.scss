@@ -172,6 +172,11 @@ ul {
 
 }
 .fourth-page{
+  h3{
+    span{
+      color: #627EDC;
+    }
+  }
   p{
     // padding: 20px;background-color: red;
     padding-top: 50px;
@@ -200,9 +205,10 @@ ul {
   h2{
     text-align: center;
     padding: 5px;
-    background-color: #627EDC;;
+    background-color: #627EDC;
     height: 5px;
     border-radius: 10px;
+   
 
     span{
       color: white;
@@ -215,7 +221,8 @@ ul {
     h2{
       text-align: left;
       // padding-bottom: -90px;
-      margin-bottom: -20px;
+      // margin-bottom: -10px;
+  
     }
     display: flex;
     // gap:190px; 

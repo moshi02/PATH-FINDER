@@ -244,7 +244,7 @@ College Roadmap Planning | College Applications
 </h2>
       <div className="section-1">
       <div className="left-side">
-        <h2>What are the <span>challenges</span> a student faces? </h2>
+        <h3>What are the <span>CHALLENGES</span> a student faces? </h3>
         <p>The major problem which is faced by students is lack of clarity , they struggle to identify their interests , long term goals , strengths and weakness which leads to confusion .Pressure from family and peers to take a certain career path is also one of the main challenges of a student nowadays .They fear failure more than anything else, fearing making the wrong choice or not living up to expectations set by others.</p>
       </div>
       <div className="right-side">
@@ -258,7 +258,7 @@ College Roadmap Planning | College Applications
 
         </div>
         <div className="right-side">
-          <h2>How do we  <span>HELP</span > the students with the same</h2>
+          <h3>How do we  <span>HELP</span > the students with the same</h3>
           <p>At PathFinder, we understand the challenges students face when planning their careers. We address these hurdles by offering personalized career assessments and expert one-on-one guidance through our counseling services. Our advanced recommender system ensures that students receive tailored recommendations for relevant career paths based on their unique profiles. Additionally, we have curated a vast amount of data including articles, guides, and potential career paths to empower our users to make informed decisions and progress confidently in their career journeys.</p>
         </div>
       </div>
