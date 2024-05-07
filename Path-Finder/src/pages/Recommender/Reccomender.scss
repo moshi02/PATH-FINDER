@@ -1,0 +1,53 @@
+.masterdiv{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.top-text{
+    background-color:cornflowerblue;
+    text-align: center;
+    padding: 10px;
+    h3{
+    font-weight: 700;}
+    margin-bottom: 10px;
+}
+
+.inputs{
+    input{
+        padding: 5px;
+        background-color: blanchedalmond;
+    }
+    .submitform {
+        margin-top: 20px; /* Add margin to the top of the button */
+        align-self: center; /* Center the button vertically within its line */
+      }
+    label{
+        background-color: #007BFF;
+        padding: 7px;
+        margin: 10px;
+        border-radius: 7px;
+        font-weight: 400;
+        border: 1px solid black;
+
+    }
+    display: grid;
+    align-items:center;
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+  .submitform {
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    background-color: greenyellow;
+  }
+  
+

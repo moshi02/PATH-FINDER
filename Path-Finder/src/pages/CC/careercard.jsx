@@ -26,7 +26,6 @@ function Card() {
     { id: 11, name: 'Counselor', imgUrl: 'https://thumbs.dreamstime.com/b/individual-session-psychologist-flat-color-vector-illustration-mental-health-issues-treatment-psychological-therapy-d-cartoon-195479039.jpg', info: 'A counselor offers guidance and support to individuals facing challenges in life. By listening empathetically and providing evidence-based interventions, counselors help clients navigate mental health issues, relationship struggles, and career decisions. They create a safe environment for clients to explore their emotions and behaviors, fostering self-awareness and positive change. With their expertise, counselors empower individuals to overcome obstacles and lead healthier, more fulfilling lives.' },
     { id: 12, name: 'Consultant', imgUrl: 'https://th.bing.com/th/id/OIP.5D73ASA7ic7SkO2Rz35mfQHaEo?w=2343&h=1465&rs=1&pid=ImgDetMain', info: 'A consultant is an expert who provides professional advice to businesses, organizations, or individuals in a specific area. They leverage their deep knowledge and experience to help clients solve problems, improve performance, and achieve their goals. Consultants can be internal, employed by the organization they advise, or external, working independently or for a consulting firm. Their tasks vary depending on the project, but they often conduct research, analyze data, identify areas for improvement, develop recommendations, and sometimes even assist with implementation.' },
    
-    // Add more cards here
     
   ];
   useEffect(() => {

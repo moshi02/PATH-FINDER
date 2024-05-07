@@ -28,8 +28,6 @@ const Counselor = () => {
     return { minDate, minTime };
   };
   const { minDate, minTime } = calculateMinDateTime();
-
-
   const [firstName, setFirstName] = useState("");
   const [date, setDate] = useState("");
   const [email, setEmail] = useState("");

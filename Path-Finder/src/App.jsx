@@ -16,27 +16,27 @@ const App = () => {
   const user = useUser();
 
   return (
-    // <div className='App'>
-    //   <Routes>
-    //     <Route path='/' element={<Home />} />
-    //     <Route path="/Careers" element={<Careercard />} />
-    //     <Route path="/Counselor" element={<Counselor />} />
-    //     <Route path="/Articles" element={<Articles />} />
-    //     <Route path="/About" element={<About />} />
+    <div className='App'>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path="/Careers" element={<Careercard />} />
+        <Route path="/Counselor" element={<Counselor />} />
+        <Route path="/Articles" element={<Articles />} />
+        <Route path="/About" element={<About />} />
 
-    //     {user.isSignedIn ? (
-    //       <Route path="/Dashboard" element={<Dashboard />} />
-    //     ) : (
-    //       <Route path="/Dashboard" element={<UnauthorizedAccess />} />
-    //     )}
-    //   </Routes>
-    // </div>
-    <Recommender / >
+        {user.isSignedIn ? (
+          <Route path="/Dashboard" element={<Dashboard />} />
+        ) : (
+          <Route path="/Dashboard" element={<UnauthorizedAccess />} />
+        )}
+      </Routes>
+    </div>
+    // <Recommender / >
   );
 };
 
-{/* const UnauthorizedAccess = () => {
+ const UnauthorizedAccess = () => {
   return <div>You are not authorized to access this page.</div>;
-}; */}
+}; 
 
 export default App;
